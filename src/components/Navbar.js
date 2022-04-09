@@ -3,7 +3,11 @@ import {Link} from 'react-router-dom'
 const Navbar = () => {
     return (
         <>
-          <nav>
+          <nav className='flex justify-between 
+          items-center h-16
+           bg-white text-black 
+           relative shadow-sm 
+           font-mono' role='navigation'>
               <Link to="/" className='pl-8' >
                   EGG
               </Link>
@@ -19,6 +23,20 @@ const Navbar = () => {
                 strokeLinejoin="round" 
                 d="M4 6h16M4 12h16M4 18h16" />
              </svg>
+              </div>
+              <div className='pr-8 md:block hidden'>
+                    <Link className='p-4' to="/">
+                        Home
+                    </Link>
+                    <Link className='p-4' to="/home">
+                        Menu
+                    </Link>
+                    <Link className='p-4' to="/About">
+                        About
+                    </Link>
+                    <Link className='p-4' to="/Contact">
+                        About
+                    </Link>
               </div>
           </nav>  
         </>
