@@ -14,7 +14,7 @@ const Content = () => {
           </div>
           <div className='menu-card'>
             <img src={Image2} alt ="eggs" className='h-full rounded mb-20 shadow' /> 
-            <div className='flex flex-col justify-center items-center'>
+            <div className='center-content'>
                 <h2 className='text-2xl mb-2'>Egg Buffing </h2>
                 <p className=''> Crispy , delicious and nutritious</p>
                 <span>$23</span>
