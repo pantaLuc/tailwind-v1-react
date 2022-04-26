@@ -28,14 +28,14 @@ const Navbar = () => {
                     <Link className='p-4' to="/">
                         Home
                     </Link>
-                    <Link className='p-4' to="/home">
+                    <Link className='p-4' to="/menu">
                         Menu
                     </Link>
                     <Link className='p-4' to="/About">
                         About
                     </Link>
                     <Link className='p-4' to="/Contact">
-                        About
+                        Contact
                     </Link>
               </div>
           </nav>  
